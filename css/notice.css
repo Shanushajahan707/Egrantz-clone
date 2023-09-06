@@ -1,0 +1,23 @@
+.notice-content{
+    height: 900px;
+    width: 60%;
+    padding-top: 75px;
+    display: flex;
+    margin-left: 300px;
+    flex-wrap: wrap;
+}
+.notice-content ul li{
+    color: white;
+}
+.notice-content  a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+.notice-content  a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    top: 0;
+    position: sticky;
+    width: 100%;
+    z-index: 100;
+}
+
+.top {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    background-color: rgb(1, 34, 50);
+    font-size: 11px;
+    height: 42px;
+    align-items: center;
+    z-index: 1;
+}
+
+.gov {
+    color: rgb(248, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    opacity: 0.5;
+}
+
+.social a img {
+    width: 17px;
+    height: 17px;
+    color: rgb(1, 34, 50);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+.social a img:hover {
+    background-color: #ffb71c;
+    opacity: 1;
+    transition: ease-in 0.15s;
+}
+
+.nav {
+    background-color: #002147;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    z-index: 1;
+
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    width: 39%;
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    justify-content: center;
+    left: 30px;
+    padding-left: 90px;
+}
+
+.nav-bar span {
+    color: #ffb71c;
+
+}
+
+.navigator {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    flex-wrap: wrap;
+    width: 50%;
+    color: rgb(238, 235, 232);
+
+}
+
+.navigator ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 12px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.navigator ul li a {
+    text-decoration: none;
+    color: rgb(233, 233, 225);
+}
+
+#h1 {
+    border-top: 2px solid #ffb71c;
+    padding-top: 32px;
+    border-right-width: 1.5rem;
+    box-sizing: border-box;
+    position: relative;
+     color: #ffb71c;
+
+}
+
+.navigator ul li a:hover {
+    border-top: 2px solid #ffb71c;
+    padding-top: 32px;
+    text-decoration: underline;
+    color: #ffb71c;
+}
+
+.line {
+    height: 5px;
+    background-color: #ffb71c;
+    z-index: 1;
+}
+
+.notice-board {
+    height: 1000px;
+    background-color: #4f6d90;
+    z-index: 0;
+}
+
+.notice {
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: 600;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 17px;
+    opacity: 0.8;
+}
+
+.line-2 {
+    border: 1px solid white;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13px;
+    margin-left: 46%;
+}

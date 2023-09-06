@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.main {
+
+    height: 700px;
+    width: 100%;
+    background-color: #002147;
+}
+
+.about {
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.pic {
+    height: 600px;
+    width: 45%;
+    margin-right: 65px;
+  
+}
+
+.pic img {
+    object-fit: cover;
+    height: 700px;
+    width: 700px;
+    object-position: top;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pic-about {
+    height: 370px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25px;
+    width: fit-content;
+}
+
+.pic-about span {
+    color: #ffb71c;
+}
+
+.artcle {
+    width: 620px;
+    text-align: justify;
+    text-justify: inter-word;
+   font-weight: bolder;
+}
+.artcle p {
+    color: aliceblue;
+    font-size: 56px;
+    font-weight: 900;
+    margin-bottom: 7px;
+}
+
+.artcle .about-article-1 p {
+    font-size: 11px;
+    color: #ffb71c;
+    opacity: 0.7;
+}
+
+.artcle .about-article-2 p {
+    font-size: 11px;
+    color: #f5f4f4;
+    opacity: 0.7;
+    font-weight: 800;
+}
+
+.about-article-3 {
+    display: flex;
+}
+.about-article-3 i{
+    margin-top: 27px;
+}
+#about-award {
+    margin-top: 34px;
+    margin-left: 13px;
+    font-weight: 600;
+    color: #ffb71c;
+    font-size: 14px;
+}

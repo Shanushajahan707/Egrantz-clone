@@ -1,0 +1,126 @@
+.contact-session {
+    height: 500px;
+    width: 100%;
+    background-color: #4f6d90;
+    z-index: 100;
+    position: absolute; 
+  
+    
+}
+
+.contact-top {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 40px;
+    color: white;
+}
+
+.line-3 {
+    border: 0.6px solid white;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9px;
+    margin-left: 46%;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 131px;
+    padding-top: 0px;
+    margin-left: 100px;
+    padding-right: 20px;
+    width: 900px;
+
+}
+
+.address-1 {
+    width: 400px;
+    height: 300px;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.address-top {
+    color: #002147;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.address-bottom {
+    color: #002147;
+    font-size: 13px;
+    padding-top: 10px;
+    line-height: 30px;
+
+}
+
+.address-top-2 {
+    color: #002147;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.address-bottom-2 {
+    color: #002147;
+    font-size: 13px;
+    padding-top: 10px;
+    line-height: 20px;
+}
+
+.address-top-3 {
+    color: #002147;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.address-bottom-3 {
+    color: #002147;
+    font-size: 13px;
+    padding-top: 10px;
+    line-height: 20px;
+}
+
+#toll-fee {
+    padding-top: 10px;
+}
+
+/* footer */
+footer {
+    position: relative;
+    z-index: 100;
+    height: 100px;
+    top: 450px;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #002147;
+    color: white;
+}
+.futer-left p{
+    font-size: 13px;
+    padding: 15px;
+    padding-left: 250px;
+}
+.futer-left a:hover{
+    cursor: pointer;
+}
+.futer-right{
+    padding-top: 40px;
+    padding-right: 250px;
+    
+}
+.futer-right a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.futer-right a:hover{
+    cursor: pointer;
+   
+
+}
+
